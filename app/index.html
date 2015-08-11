@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/favicon.ico">
+
+  <title>ProductApp</title>
+    <!-- CSS -->
+    <% cssFiles.forEach(function(p) { print('<link rel="stylesheet" href="'+p+'"> \n');}) %>
+
+    <!-- LIBS -->
+    <% libsFiles.forEach(function(p) { print('<script type="text/javascript" src="'+p+'"></script> \n');}) %>
+
+    <!-- JS -->
+    <% jsFiles.forEach(function(p) { print('<script type="text/javascript" src="'+p+'"></script> \n');}) %>
+
+
+</head>
+
+
+<% print('<script type="text/javascript" > var isMock = '+isMock+'</script> \n'); %>
+
+<body ng-cloak>
+
+<div class="loading" ng-if="showLoader"></div>
+
+<main ui-view >
+
+
+</main>
+
+
+
+
+</body>
+
+</html>

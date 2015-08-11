@@ -1,0 +1,11 @@
+<toolbar></toolbar>
+{{apps}}
+<md-content>
+    <md-list>
+    <md-list-item ng-repeat="item in produits" ng-click="gotoDetail($index)" class="pointer">
+      <div class="md-list-item-text">
+      <h3>{{ item.name }}</h3>
+      </div>
+    </md-list-item>
+    </md-list>
+</md-content>

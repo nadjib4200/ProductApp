@@ -1,0 +1,10 @@
+.idea
+*.iml
+node_modules
+hooks/README.md
+platforms
+plugins
+bower_components
+app/bower_components
+www/
+Zip/

@@ -1,0 +1,112 @@
+@media only screen and (min-width:768px) and (max-width:1281px) {
+	.main {
+	  padding-right: 20px;
+	  padding-left: 60px;
+	}
+	.btn-container{
+		background: url("../img/separateur.png") repeat-x left center;
+		padding:20px;
+		margin: 0 -20px;
+		text-align: center;
+	}
+	/* tables */
+	.page-sub-header{
+	  font-size:16px;
+	}
+	.sub-header, .main .sub-header{
+	  font-size:1.6em;
+	  padding:17px 17px 0 17px;
+	}
+	.main .page-header {
+	  margin-left: -20px;
+	}
+	.brown-number, .blue-number{
+	  width: 65px;
+	  height:65px;
+	  padding:20px 15px 0 15px;
+	}
+	/* Colonne droite */
+	.bloc-profil{
+		margin-right:0;
+	}
+	.bloc-profil-tbt{
+		position:absolute;
+		top:35px;
+		right:40px;
+		text-transform: uppercase;
+		text-align:right;
+	}
+	.bloc-profil-tbt a{
+		display:block;
+		padding-right:20px;
+		background: url("../img/arrow.svg") no-repeat right center / 10px 15px;
+		text-decoration:none;
+		color:#4c5359;
+		font-size:16px;
+		font-family: "HelveticaNeueLTStd-Roman", Arial, Sans-serif;
+	}
+	.bloc-profil-tbt a strong{
+		color:#77828c;
+		font-size:18px;
+	}
+	.bloc-contexte{
+		margin-right:0;
+	}
+	.bloc-contexte-tbt .picto{
+		float:right;
+		width:50px;
+		height:50px;
+	}
+	.bloc-contexte-tbt{
+		position:absolute;
+		top:35px;
+		right:40px;
+		text-transform: uppercase;
+		text-align:right;
+	}
+	.bloc-contexte-tbt a{
+		display:block;
+		padding-right:70px;
+		text-decoration:none;
+		color:#4c5359;
+		font-size:16px;
+		font-family: "HelveticaNeueLTStd-Roman", Arial, Sans-serif;
+	}
+	.bloc-contexte-tbt a strong{
+		color:#77828c;
+		font-size:18px;
+	}
+	/* Footer */
+	.footer li:first-child{
+		float:none;
+	}
+	.footer li:nth-child(1)::after{
+	  content:"";
+	  padding-left:0;
+	}
+	/*slideout-menu hidden*/
+	.slideout-open .slideout-menu {
+		display:none;
+	}
+	/* Form elements */
+	.form-buttons button {
+	  margin-right: 10px;
+	}
+	.form-recla input[type=text]{
+	    max-width:75% !important;
+	}
+	.infos-profil .dropdown-autocomp {
+	  width: 100%;
+	  padding-left:20px;
+	  margin-bottom: 0;
+	}
+	.dropdown-autocomp{
+	  width:75%;
+	  margin-bottom: 20px;
+	}
+@media only screen and (min-width:1024px) {
+	.main {
+	  padding-right: 20px;
+	  padding-left: 40px;
+	}
+}

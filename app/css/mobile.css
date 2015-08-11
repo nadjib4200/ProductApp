@@ -1,0 +1,353 @@
+@media only screen and (max-width: 767px) {
+	body {
+		padding-top: 55px;
+		background:#fff;
+		font-size: 14pt;
+	}
+
+	.main {
+		padding: 15px 20px 0;
+	}
+	.navbar{
+		height: 50px;
+		margin-bottom: 0;
+	}
+	.navbar-fixed-top {
+		/* margin-left: 85px; */
+		height:90px;
+		padding: 30px 0;
+		background-color: #35619A;
+		color: white;
+	}
+	.navbar-fixed-top .col-xs-1{
+		min-width:40px;
+	}
+	.navbar-header .navbar-elem{
+		padding: 0;
+		height:auto;
+	}
+	.navbar-header a{
+		padding: 5px;
+		display:block;
+	}
+	.nav-sidebar > li > a {
+		padding:10px 40px;
+	}
+	.navbar-brand {
+		padding: 5px;
+		height:55px;
+	}
+	.page-header{
+		background:#4d5fa1;
+		color:#fff;
+		margin:35px -20px 0 -25px !important;
+		padding: 20px 10px 20px 20px;
+		position:relative;
+	}
+	.page-header span{
+		display:block;
+		position:absolute;
+		right:10px;
+		top:15px;
+		width:35px;
+		height:35px;
+	}
+	.btn-container{
+		background: url("../img/separateur.png") repeat-x left bottom #fff;
+		padding:30px 0 20px 0;
+		margin: 0 -20px -20px;
+		text-align: center;
+	}
+	.wtBlk,	.grBlk{
+		border: none;
+		margin:0 -20px;
+	}
+	.grBlk{
+		background: #f7f7f7;
+	}
+	.wtBlk{
+		background-color:#fff !important;
+	}
+	.wtBlk p, .grBlk p{
+	  margin:0 0 10px 0;
+	}
+	.infos-profil{
+	  margin:0 0 0 10px;
+	  font-size:16px;
+	  width: 73%;
+  		float: left;
+	}
+	.infos-profil p{
+	  margin-bottom:5px;
+	}
+	.infos-profil strong{
+	  font-size:18px;
+	}
+	/* tables */
+	.page-sub-header{
+	  font-size:16px;
+	  padding:17px 0 10px 0;
+	  margin:0;
+	}
+	.sub-header, .main .sub-header{
+		font-size:1.2em;
+		padding:10px 15px;
+	}
+	.round-number{
+		padding:5px 10px
+	}	
+	.brown-number, .blue-number{
+		width: 50px;
+		height:50px;
+		padding: 18px 0px 15px 0px;
+	}
+	.statut{
+		width:10px;
+		height:12px;
+	}
+	.page-sub-header .statut-ok{
+		background: url("../img/table_statut1.svg") no-repeat 0 3px;
+		background-position-y: 9px;
+	}
+	.page-sub-header .statut-ko{
+		background: url("../img/table-mob_statut1.svg") no-repeat 0 3px;
+	}
+	.statut-ok{
+		background: url("../img/table-mob_statut1.svg") no-repeat 0 2px;
+	}
+	.statut-ko{
+		background: url("../img/table-mob_statut4.svg") no-repeat 0 2px;
+	}
+	.table-responsive{
+		border:none;
+		margin-bottom:0 !important;
+	}
+	.table.reclamation > tbody > tr, .table.contrats > tbody > tr{
+		position:relative !important;
+		display:block;
+		background: url("../img/arrow-mob2.svg") no-repeat center right / 15px 15px;
+	}
+	.table.reclamation > tbody > tr > td, .table.contrats > tbody > tr > td{
+		display:block;
+		display:-ms-flexbox;
+		border-top:none;
+		padding:5px 4px 0;
+	}
+	.table.reclamation > tbody > tr > td:first-child{
+		float:left;
+		height:70px;
+		margin:5px 15px;
+	}
+	.table.reclamation > tbody > tr > td:nth-child(2), .table.contrats > tbody > tr > td:nth-child(1){
+		font-weight:bold;
+
+	}
+	.table.reclamation > tbody > tr > td:nth-child(4){
+		padding-bottom:10px;
+	}
+	.table.reclamation > tbody > tr > td:last-child{
+		position:absolute;
+		right:30px;
+		top:10px;
+	}
+	.table.contrats > tbody > tr > td{
+		padding:5px;
+	}
+	.tt-rec{
+	  padding-top:0;
+	  text-align:left;
+	  margin:-35px 0 20px 65px;
+	}
+/* footer */
+	.footer{
+	  background: #35619A;
+	  color: white;
+	}
+	.footer ul{
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	.footer li{
+		float:none;
+		padding:5px 10px;
+		border-top:1px solid #ddd;
+		text-align:center;
+	}
+	.footer li:first-child{
+		border-top:none;
+	}
+	.footer li::after{
+		content:"";
+		padding-left:0;
+	}
+	.bloc-profil{
+		margin-left:-20px;
+		margin-right:-20px;
+		border:none;
+		background: url("../img/arrow-mob2.svg") no-repeat center right 20px / 15px 15px;
+	}
+	.bloc-profil div {
+		display:table-cell;
+	}
+	.bloc-profil .profil-photo{
+		float:left;		
+		margin:0 20px 0 0;
+	}
+	.bloc-profil .profil-name{
+		font-size:16px;
+		font-weight:bold;
+	}
+	.bloc-contexte{
+		margin-left:-20px;
+		margin-right:-20px;
+		border:none;
+		background: url("../img/arrow-mob2.svg") no-repeat center right 20px / 15px 15px;
+	}
+	.bloc-contexte div {
+		display:table-cell;
+	}
+	/* Slidedout menu */
+	.menu-touch{
+		padding:0;
+		margin:0;
+	}
+	.menu-touch li{
+		padding-left:10px;
+		text-transform: uppercase;
+	}
+	.menu-touch li:hover, .menu-touch li.active{
+		background:#3C497D;
+	}
+	.menu-touch li img{
+		margin:13px 10px;
+	}
+	.menu-touch li:hover a, .menu-touch li a:hover, .menu-touch li a{
+		color:#fff;
+	}
+	.menu-touch li a div{
+		display:inline-block;
+	}
+	.menu-touch li a{
+		  height: 60px;
+		  width: 100%;
+		  display: block;
+		  color:#fff;
+		  border-bottom:1px solid #465284;
+	}
+	.menu-touch li a img{
+		width:35px;
+	}
+	.slideout-panel {
+		margin-top:-55px;
+	}
+	.menu-section li{
+		list-style: none;
+	}
+	/* Pagination*/
+	.pagination > li > a, .pagination > li > span {
+	  margin:0 5px;
+	}
+	/* Breadcrumbs */
+	.breadcrumb {
+		display:none;
+	}
+	/* form elements */
+	.tableau-filtres{
+		margin-bottom:20px;
+	}
+	.tableau-filtres .dropdown-toggle, .tableau-filtres .dropdown-toggle:active{
+    	min-width:100%;
+    	margin:20px 0 0;
+	}
+	.tableau-filtres .dropdown-menu{
+    	min-width:100%;
+   	}
+   	.tableau-filtres .dropdown-toggle .caret{
+	    position: absolute;
+		right: 25px;
+		top: 65%;
+	}
+	.form-recla label {
+	  margin: 10px 0 20px 0;
+	}
+	.form-recla input[type=text]{
+	    max-width:70% !important;
+	    margin-bottom:10px;
+	}
+	.form-profil{
+		margin-top:30px;
+	}
+	.form-profil .page-sub-header{
+		margin-bottom:20px;
+	}
+	.form-profil .profil-bloc-loc{
+	  margin-top: 20px;
+	  padding-left:60px;
+	}
+	.form-profil input[type=text]{
+	    max-width:100%;
+	    width:100%;
+	}
+	.form-profil .picto-profil {
+	  /*background-size: 30px 30px;
+	  background-position: 2px 10px;*/
+	}
+	.form-profil .profil-bloc-loc {
+	  padding-left: 50px;
+	  background-size: 40px 40px;
+	  background-position:0px 0px;
+	  background-color: transparent;
+	}
+	 .form-profil .profil-bloc-loc input[type=text]{
+	 	padding-left:15px;
+	 
+	}
+	.profil-bloc-loc p, .form-profil .profil-bloc-loc input[type=text] {
+	  font-size:16px;
+	}
+	.form-recla input[type=text].dropdown-toggle{
+	    margin-bottom:0;
+	    padding-right: 40px;
+	}
+	.infos-profil .dropdown-autocomp {
+	  width: 100%;
+	  margin-bottom: 0;
+	}
+	.dropdown-autocomp {
+	  width:70%;
+	  margin-bottom: 10px;
+	}
+	.btn-cancel, .btn-cancel:focus, .btn-action, .btn-action:focus {
+		min-width:120px;
+		padding:10px 25px;
+	}
+	.dropdown-toggle.btn-default, .dropdown-toggle.btn-default:focus, .dropdown-toggle.btn-default:active {
+		min-width: 100px !important;
+		width:100%;
+	}	
+	.form-buttons button{
+		margin-right:0;
+	}
+	.form-buttons button:first-child{
+		margin-right:10px;
+	}
+	.form-profil{
+		margin-top:0;
+	}
+
+	.arrow-add{
+		  background: url("../img/arrow.svg") no-repeat center right / 15px 15px;
+		  height: 15px;
+  		  width: 15px;
+		  -ms-transform: rotate(90deg);
+		  -webkit-transform: rotate(90deg);
+		  transform: rotate(90deg);
+		 
+	}
+
+	.titleEmove{
+		margin-top: 90px;
+	}
+
+}

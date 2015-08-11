@@ -1,0 +1,48 @@
+
+<!-- bloc bouton tab/mob-->
+<div class="btn-container hidden-md hidden-lg">
+  <button class="btn btn-large btn-info">Label Bouton</button>
+</div>
+<!-- bloc bouton desk-->
+<div class="wtBlk visible-md visible-lg col-marginLeftNeg bloc-recla">
+  <button class="btn btn-large btn-info pull-right">Label Bouton</button>
+  <h2>Titre de bloc bouton</h2>
+  <p>Texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte.</p>
+</div>
+<!-- /bloc bouton desk-->
+<!-- table réclamations -->
+<div class="wtBlk col-marginLeftNeg">           
+  <div class="sub-header clearfix">
+    <div class="row">
+      <div class="round-number brown-number col-xs-3 col-md-2 text-center">{{rows.length}}</div>
+      <div class="round-number col-xs-9 col-md-6">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-12">
+            {{title}}
+          </div>
+          <!-- <div class="hidden-md hidden-lg col-xs-12 col-sm-6">
+            <small class="link-recla"><a >Afficher toutes les réclamations</a></small>
+          </div> -->
+        </div>
+      </div>
+      <!-- <div class="round-number col-xs-4 hidden-xs hidden-sm col-sm-6 col-md-4"><small class="link-recla"><a >Afficher toutes les réclamations</a></small></div> -->
+    </div>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover reclamation clearfix">
+      <thead class="hidden-xs">
+        <tr class="clearfix">
+          <th  ng-repeat="col in columns">{{col.label}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="clearfix" ng-repeat="row in rows | paginated: page :size :sortBy" ng-click="onClick(row)">
+          <td ng-repeat="col in columns">
+            <div >{{row[col.key]}}</div>
+          </td>
+        </tr>
+       
+      </tbody>
+    </table>
+  </div>
+</div>

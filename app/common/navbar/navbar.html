@@ -1,0 +1,37 @@
+<!-- Nav Bar (tablet)-->
+<div class="hidden-xs col-sm-1 sidebar" click-outside="$root.onClickOutSide()">
+  <ul class="nav nav-sidebar">
+    <li>
+    	<a ng-click="onBurger()" href class="burger"><img src="img/nav-mob_back.svg" alt=""/>
+    		<div> Menu</div>
+    	</a>
+    </li>
+
+    <li ui-sref="dashboard" ng-class="{'active': state.current.name == 'dashboard'}">
+    	<a href><img src="img/nav_accueil.svg" alt=""/>
+    		<div> Tableau de Bord</div>
+    	</a>
+    </li>
+    
+    <li ng-class="{'active': state.current.name == 'cases'}">
+    	<a ui-sref="cases" href><img src="img/nav_reclam.svg" alt=""/>
+    		<div> Réclamation</div>
+    	</a>
+    </li>
+    
+    <li ng-class="{'active': state.current.name == 'contracts'}" >
+    	<a ui-sref="contracts" href><img src="img/nav_contrat.svg" alt=""/>
+    		<div> Contrat</div>
+    	</a>
+    </li>
+    
+    <li ui-sref="profile"
+    	ng-class="{'active': (state.current.name == 'profile' || state.current.name == 'editprofile')}">
+    		<a ui-sref="profile" href><img src="img/nav_profil.svg" alt=""/>
+    			<div> Compte et Profil</div>
+    		</a>
+    </li>
+    
+    <li><a href><img src="img/nav_direct.svg" alt=""/><div> Accès Premium</div></a></li>
+  </ul>
+</div>

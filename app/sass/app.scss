@@ -1,0 +1,26 @@
+@import "variables.scss";
+
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.ng-click-active {
+  background-color: $sideBlue !important;
+  color: white;
+}
+
+.listdemoBasicUsage md-divider {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0;
+}
+.pointer{
+  cursor:pointer;
+}
