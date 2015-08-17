@@ -9,4 +9,5 @@ created by:
 *   apache cordova
 *   html5
 *   css3
+*   angularJS
 *   gulp
